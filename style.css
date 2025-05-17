@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*FONT*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.air{
+    color:#ff4668;
+}
+.one1{
+    display: flex;
+    border: solid black 2px;
+    
+    width: 500px;
+    padding: 10px;
+    justify-content: space-around;
+    border-radius: 30px;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: sticky;
+}
+.one2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.two{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;
+}
+.three{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.four{
+    position: fixed;
+    background-color: white;
+    padding: 10px;
+    bottom: 0px;
+    width:100%;
+}
+img{
+    border-radius: 20px;
+    transition-duration: 2s;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.icon:hover{
+    color: blue;
+}
+i,img{
+    cursor: pointer;
+}
